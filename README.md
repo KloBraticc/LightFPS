@@ -71,7 +71,7 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 </p>
 
 <p align="center">
-  Click <strong>Open</strong> the extension.
+  <strong>Open</strong> the extension.
 </p>
 
 
