@@ -70,6 +70,10 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
   <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image4.png" alt="Load Unpacked"/>
 </p>
 
+<p align="center">
+  Click <strong>Open</strong> the extension.
+</p>
+
 
 ---
 
