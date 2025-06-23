@@ -43,28 +43,33 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image1.png" alt="LightFPS UI Screenshot" />
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image1.png" alt="LightFPS UI Screenshot" width="95%"/>
 </p>
-
-**Important Extra Setup Info!**
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image2.png" alt="Extra Setup" />
+  <strong>Important Extra Setup Info!</strong>
 </p>
-
-Enable **Developer mode**!
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image3.png" alt="Enable Developer Mode" />
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image2.png" alt="Extra Setup" width="95%"/>
 </p>
-
-Click **Load unpacked** and select the folder containing the extension.
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image4.png" alt="Load Unpacked" />
+  Enable <strong>Developer mode</strong>!
 </p>
 
-Open the extension here.
+<p align="center">
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image3.png" alt="Enable Developer Mode" width="95%"/>
+</p>
+
+<p align="center">
+  Click <strong>Load unpacked</strong> and select the folder containing the extension.
+</p>
+
+<p align="center">
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image4.png" alt="Load Unpacked" width="95%"/>
+</p>
+
 
 ---
 
