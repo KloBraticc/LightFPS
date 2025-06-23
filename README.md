@@ -19,7 +19,6 @@ Easily toggle individual optimizations with a clean interface:
 - **Lazy Load Media**  
 - **Block Tracking & Ads**  
 - **Force Dark Mode (Beta)**  
-- **Reduce Memory Usage** *(wip)*  
 - **Disable Animations**  
 - **Enhance Sharpness**  
 - **Reduce Motion Sickness**  
