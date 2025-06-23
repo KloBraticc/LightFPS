@@ -50,6 +50,8 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
   <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image2.png" alt="B"/>
 </p>
 
+Enable **Developer mode**!
+
 <p align="center">
   <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image3.png" alt="C"/>
 </p>
