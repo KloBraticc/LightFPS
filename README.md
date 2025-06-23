@@ -2,7 +2,7 @@
 
 A performance-focused browser extension to enhance your web experience by optimizing visual settings, reducing memory usage, and minimizing distractions all in one sleek UI.
 
-![LightFPS Banner](https://via.placeholder.com/800x200.png?text=LightFPS+Extension)
+![LightFPS Banner](https://github.com/KloBraticc/LightFPS/blob/main/Icon.png)
 
 ---
 
