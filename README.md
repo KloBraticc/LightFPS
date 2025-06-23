@@ -53,9 +53,10 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 </p>
 
 <audio controls>
-  <source src="https://raw.githubusercontent.com/KloBraticc/LightFPS/main/After.mp3" type="audio/mpeg" />
+  <source src="https://github.com/KloBraticc/LightFPS/releases/download/Test/After.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
+
 
 <p align="center">
   <strong>After (Bass)!</strong>
