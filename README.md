@@ -43,7 +43,7 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image1.png" alt="LightFPS Banner" width="100"/>
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image1.png" alt="LightFPS Banner" width="500"/>
 </p>
 
 ---
