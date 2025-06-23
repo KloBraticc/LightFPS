@@ -12,20 +12,20 @@ A performance-focused browser extension to enhance your web experience by optimi
 
 Easily toggle individual optimizations with a clean interface:
 
-- 🎥 **Disable Video Autoplay**
-- 🔇 **Disable Audio Autoplay**
-- ⭐ **Force Highest Quality**
-- 🔄 **FPS Smoother**
-- ⏱ **Lazy Load Media**
-- 🛡 **Block Tracking & Ads**
-- 🌙 **Force Dark Mode (Beta)**
-- 🧠 **Reduce Memory Usage** *(Experimental)*
-- 🚫 **Disable Animations**
-- 🔍 **Enhance Sharpness**
-- 📉 **Reduce Motion Sickness**
-- 🖋 **Font Smoothing**
-- 🖼 **Disable GIF Autoplay**
-- 🧼 **Minimal UI Mode**
+- **Disable Video Autoplay**
+- **Disable Audio Autoplay**
+- **Force Highest Quality**
+- **FPS Smoother**
+- **Lazy Load Media**
+- **Block Tracking & Ads**
+- **Force Dark Mode (Beta)**
+- **Reduce Memory Usage** *(Experimental)*
+- **Disable Animations**
+- **Enhance Sharpness**
+- **Reduce Motion Sickness**
+- **Font Smoothing**
+- **Disable GIF Autoplay**
+- **Minimal UI Mode**
 
 Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 
