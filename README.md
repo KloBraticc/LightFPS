@@ -19,13 +19,14 @@ Easily toggle individual optimizations with a clean interface:
 - **Lazy Load Media**  
 - **Block Tracking & Ads**  
 - **Force Dark Mode (Beta)**  
-- **Reduce Memory Usage** *(Experimental)*  
+- **Reduce Memory Usage** *(wip)*  
 - **Disable Animations**  
 - **Enhance Sharpness**  
 - **Reduce Motion Sickness**  
 - **Font Smoothing**  
 - **Disable GIF Autoplay**  
 - **Minimal UI Mode**
+- **Sound equalizer** *(Bass,Flat,Treble,Vocal)*
 
 Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 
