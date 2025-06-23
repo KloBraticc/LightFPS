@@ -1,8 +1,8 @@
 # ⚡ LightFPS
 
-A performance-focused browser extension to enhance your web experience by optimizing visual settings, reducing memory usage, and minimizing distractions — all in one sleek UI.
+A performance-focused browser extension to enhance your web experience by optimizing visual settings, reducing memory usage, and minimizing distractions all in one sleek UI.
 
-![LightFPS Banner](https://via.placeholder.com/800x200.png?text=LightFPS+Extension) <!-- Replace with actual image or remove -->
+![LightFPS Banner](https://via.placeholder.com/800x200.png?text=LightFPS+Extension)
 
 ---
 
@@ -31,7 +31,7 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 
 ## 📦 Installation
 
-1. Clone or [download this repository](https://github.com/yourusername/lightfps).
+1. Clone or [download this repository](https://github.com/KloBraticc/LightFPS).
 2. Go to `chrome://extensions` in your browser.
 3. Enable **Developer mode**.
 4. Click **Load unpacked** and select the folder containing the extension.
@@ -40,7 +40,6 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 
 ## 📸 Screenshots
 
-> Add screenshots or screen recordings of the extension in action.
 
 ---
 
