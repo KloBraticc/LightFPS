@@ -41,6 +41,28 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 
 ---
 
+## 🎶 Sound equalizer
+
+<audio controls>
+  <source src="https://raw.githubusercontent.com/KloBraticc/LightFPS/main/Before.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+<p align="center">
+  <strong>Before (Vocal)!</strong>
+</p>
+
+<audio controls>
+  <source src="https://raw.githubusercontent.com/KloBraticc/LightFPS/main/After.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+<p align="center">
+  <strong>After (Bass)!</strong>
+</p>
+
+---
+
 ## 📸 Screenshots
 
 <p align="center">
