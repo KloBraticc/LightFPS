@@ -51,7 +51,7 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 </p>
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image2.png" alt="Extra Setup" width="80%"/>
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image2.png" alt="Extra Setup"/>
 </p>
 
 <p align="center">
@@ -59,7 +59,7 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 </p>
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image3.png" alt="Enable Developer Mode" width="80%"/>
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image3.png" alt="Enable Developer Mode"/>
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 </p>
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image4.png" alt="Load Unpacked" width="80%"/>
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image4.png" alt="Load Unpacked"/>
 </p>
 
 
