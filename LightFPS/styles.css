@@ -1,0 +1,189 @@
+:root {
+  /* Typography */
+  --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-base: 18px;
+  --line-height-base: 1.6;
+
+  /* Backgrounds & Text */
+  --bg-body: #121212; /* Darker, neutral background */
+  --bg-container: #1e1e1e; /* Sleek dark card */
+  --bg-hover: #2c2c2c;
+  --text-color: #e0e0e0;
+  --text-header: #ffffff;
+
+  /* Accent Buttons */
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --success: #4ade80;
+
+  /* Warning */
+  --warning-bg: #2c1d00;
+  --warning-text: #fbbf24;
+  --warning-border: #9a7d4b;
+
+  /* UI */
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  --radius: 1rem;
+  --radius-sm: 0.5rem;
+  --transition-fast: 0.2s ease;
+  --transition-med: 0.3s ease;
+}
+
+body {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  min-width: 380px;
+  padding: 2rem;
+  background-color: var(--bg-body);
+  color: var(--text-color);
+  transition: background-color var(--transition-med), color var(--transition-med);
+}
+
+.container {
+  max-width: 680px; /* Wider container */
+  margin: 2.5rem auto;
+  padding: 2.5rem;
+  background-color: var(--bg-container);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  animation: fadeIn 0.3s var(--transition-med) forwards;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 0.75rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-header);
+  border-bottom: 1px solid #333;
+  animation: fadeIn 0.4s var(--transition-med) forwards;
+}
+
+.options {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+
+.warning-bar {
+  position: relative;
+  padding: 0.75rem 1rem;
+  background-color: var(--warning-bg);
+  color: var(--warning-text);
+  border: 1px solid var(--warning-border);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  margin: 0.5rem 0;
+}
+
+label {
+  background-color: #2a2a2a;
+  padding: 0.75rem 1rem;
+  font-size: 1.0625rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color var(--transition-fast), box-shadow var(--transition-fast);
+  display: block;
+  color: var(--text-color);
+}
+
+label:hover,
+label:focus-within {
+  background-color: var(--bg-hover);
+  outline: none;
+}
+
+label:focus-within {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.5);
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.375rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-sm);
+  background-color: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+button:hover,
+button:focus-visible {
+  background-color: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.4);
+  outline: none;
+}
+
+button i {
+  font-size: 1rem;
+}
+
+#statusMsg {
+  font-size: 1rem;
+  color: var(--success);
+  min-height: 1.5rem;
+  transition: opacity var(--transition-med);
+}
+
+#loadingOverlay {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(10, 10, 10, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity var(--transition-med), visibility var(--transition-med);
+}
+
+#loadingOverlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #444;
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

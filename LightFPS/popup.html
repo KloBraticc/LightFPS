@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LightFPS</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="loadingOverlay" aria-live="polite" aria-busy="true" role="status" style="display:none;">
+  <div class="spinner"></div>
+</div>
+<div id="topWarning" class="warning-bar">
+  <i class="fas fa-exclamation-triangle"></i>
+  If you refresh, some LightFPS features may stop working. You will need to reapply them.
+</div>
+  <div class="container">
+    <h1><i class="fas fa-bolt"></i> LightFPS</h1>
+
+    <button id="autoOptimizeToggle" title="Toggle auto optimize on page load">
+      <i class="fas fa-magic"></i>
+      Auto Optimize: <span class="status">OFF</span>
+    </button>
+
+<div class="options">
+  <label><input type="checkbox" id="disableVideoAutoplay" /> <i class="fas fa-video-slash"></i> Disable Video Autoplay</label>
+  <label><input type="checkbox" id="disableAudioAutoplay" /> <i class="fas fa-volume-mute"></i> Disable Audio Autoplay</label>
+  <label><input type="checkbox" id="forceQuality" /> <i class="fas fa-star"></i> Force Highest Quality</label>
+  <label><input type="checkbox" id="fpsSmoother" /> <i class="fas fa-sync-alt"></i> Enable FPS Smoother</label>
+  <label><input type="checkbox" id="lazyLoadMedia" /> <i class="fas fa-clock"></i> Lazy Load Media</label>
+  <label><input type="checkbox" id="blockTracking" /> <i class="fas fa-shield-alt"></i> Block Tracking & Ads</label>
+  <label><input type="checkbox" id="enableDarkMode" /> <i class="fas fa-moon"></i> Force Dark Mode BETA!</label>
+  <label><input type="checkbox" id="disableAnimations" /> <i class="fas fa-ban"></i> Disable Animations</label>
+  <label><input type="checkbox" id="enhanceSharpness" /> <i class="fas fa-search-plus"></i> Enhance Sharpness</label>
+  <label><input type="checkbox" id="reduceMotion" /> <i class="fas fa-wave-square"></i> Reduce Motion Sickness</label>
+  <label><input type="checkbox" id="fontSmoothing" /> <i class="fas fa-font"></i> Enable Font Smoothing</label>
+  <label><input type="checkbox" id="disableGifAutoplay" /> <i class="fas fa-image"></i> Disable GIF Autoplay</label>
+  <label><input type="checkbox" id="enableMinimalUI" /> <i class="fas fa-window-minimize"></i> Enable Minimal UI</label>
+  <label>
+  <input type="checkbox" id="betterSound" />
+  <i class="fas fa-headphones-alt"></i> Sound equalizer
+</label>
+<select id="soundPreset">
+  <option value="flat">Flat</option>
+  <option value="bass">Bass Boost</option>
+  <option value="treble">Treble Boost</option>
+  <option value="vocal">Vocal Clarity</option>
+</select>
+
+</div>
+
+    <button id="applyBtn">
+      <i class="fas fa-check-circle"></i>
+      Apply
+    </button>
+    
+    <p id="statusMsg"></p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
