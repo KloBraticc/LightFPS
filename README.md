@@ -43,7 +43,19 @@ Enable **Auto Optimize** to apply your favorite settings instantly on page load!
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image1.png" alt="LightFPS Banner"/>
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image1.png" alt="A"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image2.png" alt="B"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image3.png" alt="C"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/KloBraticc/LightFPS/blob/main/Image4.png" alt="DWOW"/>
 </p>
 
 ---
