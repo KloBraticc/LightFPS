@@ -25,6 +25,8 @@ Easily toggle individual optimizations with a clean interface:
 - **Font Smoothing**  
 - **Disable GIF Autoplay**  
 - **Minimal UI Mode**
+- **Website Checker**
+- **Audio Motion**  
 - **Sound equalizer** *(Bass,Flat,Treble,Vocal)*
 
 Enable **Auto Optimize** to apply your favorite settings instantly on page load!
